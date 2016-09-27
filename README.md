@@ -1,0 +1,1 @@
+# opencart_selinux_permissions

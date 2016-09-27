@@ -40,7 +40,7 @@ sudo chcon -Rv --type=httpd_sys_rw_content_t ${docRoot}/system/storage/cache
 sudo chcon -Rv --type=httpd_sys_rw_content_t ${docRoot}/system/storage/logs
 sudo chcon -Rv --type=httpd_sys_rw_content_t ${docRoot}/system/storage/download
 sudo chcon -Rv --type=httpd_sys_rw_content_t ${docRoot}/system/storage/upload
-sudo chcon -Rv --type=httpd_sys_rw_content_t ${docRoot}/var/www/opencart/system/storage/modification
+sudo chcon -Rv --type=httpd_sys_rw_content_t ${docRoot}/system/storage/modification
 
 exit 0
 
